@@ -1,0 +1,94 @@
+/* About Page */
+
+.header__comp {
+  background: #ffffff;
+}
+.nav-item {
+  text-transform: capitalize;
+}
+.nav-item.about__join {
+  background-color: #ef7822;
+  border-radius: 10px;
+}
+.about__join a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+/* Jumbotron Style */
+.jumbotron-bg {
+  background-image: url("/img/aboutBG.png");
+  background-size: cover;
+  background-position: center;
+  height: 406px;
+}
+
+.jumbotron .container {
+  padding-top: 180px;
+  padding-bottom: 80px;
+}
+.jumbotron .container .display-4 {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+/* about__sec01 */
+.about__sec01-header {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.card-body p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+/* about__sec02 */
+.about__sec02 {
+  padding: 3rem 0;
+}
+.about__sec02 h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 52px;
+}
+.about__sec02 span {
+  font-weight: 500;
+  font-size: 16px;
+}
+.about__sec02 .about__sec02-img {
+  height: 500px;
+}
+.about__sec02 .about__sec02-img img {
+  height: 80%;
+}
+
+/* Media query */
+
+@media (max-width: 576px) {
+  .jumbotron .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .jumbotron .container .display-4 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .jumbotron-bg {
+    background-image: url("/img/aboutBG.png");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+  }
+  .jumbotron .container {
+    padding-top: 80px;
+  }
+}
+
+/* End of About Page */
