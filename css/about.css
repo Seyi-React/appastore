@@ -1,0 +1,179 @@
+/* About Page */
+
+.header__comp {
+  background: #ffffff;
+}
+.nav-item {
+  text-transform: capitalize;
+}
+.nav-item.about__join {
+  background-color: #ef7822;
+  border-radius: 10px;
+}
+.about__join a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+/* Jumbotron Style */
+.jumbotron-bg {
+  background-image: url("/img/aboutBG.png");
+  background-size: cover;
+  background-position: center;
+  height: 406px;
+}
+
+.jumbotron .container {
+  padding-top: 180px;
+  padding-bottom: 80px;
+}
+.jumbotron .container .display-4 {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+/* about__sec01 */
+.about__sec01-header {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.card-body p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+/* about__sec02 */
+.about__sec02 {
+  padding: 3rem 0;
+}
+.about__sec02 h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 52px;
+}
+.about__sec02 span {
+  font-weight: 500;
+  font-size: 16px;
+}
+.about__sec02 .about__sec02-img {
+  height: 500px;
+}
+.about__sec02 .about__sec02-img img {
+  height: 80%;
+}
+
+/* about__sec03 */
+.about__sec03 {
+  background-color: #2f3934;
+}
+.about__sec03 .flex__comp div {
+  margin: 0rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+.about__sec03 .flex__comp div p {
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+/* about__sec04 */
+.about__sec04 {
+}
+.about__sec04 .row {
+  margin: 3rem 0;
+}
+
+.about__sec04-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about__sec04-col p {
+  font-weight: 800;
+  font-size: 24px;
+}
+.about__sec04-col p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.about__sec04-img {
+  width: 179px;
+  height: 179px;
+}
+.about__sec04-img img {
+  width: 90%;
+  height: 90%;
+}
+
+/* about__footer */
+
+.about__footer {
+  padding: 2rem 0rem;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    #e27425;
+}
+.about__footer .col div {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.about__footer .col div h6 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.about__footer .col div p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.about__footer .col div .mobile__img div {
+  width: 150px;
+  height: 55.99px;
+  margin: 0.2rem 0;
+}
+.about__footer .col div .mobile__img div img {
+  width: 80%;
+  height: 70%;
+}
+
+/* Media query */
+
+@media (max-width: 576px) {
+  .jumbotron .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .jumbotron .container .display-4 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .jumbotron-bg {
+    background-image: url("/img/aboutBG.png");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+  }
+  .jumbotron .container {
+    padding-top: 80px;
+  }
+}
+
+/* End of About Page */
