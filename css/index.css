@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.nav-link {
+    color: #ffff;
+    font-size: 14px;
+    margin: 0 8px;
+}
+.nav-link:hover {
+    color: #EF7822;
+}
+.main-appa {
+    background-image: url(../img/bgAppa.png);
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.app-sec,.tracking-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.orange {
+    color: #EF7822;
+
+}
+.order {
+    color: #ffff;
+    font-size: 30px;
+    margin-top: 3rem;
+}
+.contain {
+    margin: 5rem;
+}
+.app-sec-p {
+    color: #ffff;
+    font-size: 13px;
+    width: 28rem;
+    opacity: 0.8;
+}
+.track-div {
+    position: relative;
+    top: -35px;
+    padding: 4rem 0;
+    right: -7.8rem;
+}
+.track-div h5 {
+    color: #ffff;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.track-section {
+    position: relative;
+    left: -80px;
+}
+.track-section input {
+    width: 290px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin: 0 10px
+}
+::placeholder {
+    font-size: 13px;
+    position: relative;
+    left: 5px;
+}
+.track-section button {
+    height: 35px;
+    width: 120px;
+    background-color: #EF7822;
+    color: #ffff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+/* What makes special  */
+.appa-what {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.appa-main-what h1 {
+   font-size: 37px;
+   font-weight: 400;
+}
+.appa-main-what p {
+    font-size: 14px;
+    text-align: center;
+}
+.appa-icon-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+    padding: 1rem 2rem;
+}
+
+.icon-div p {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.icon-div {
+    height: 160px;
+    width: 180px;
+    background-color: #EF7822;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 1rem;
+}
+.icon-div img {
+    height: 60px;
+    width: 60px;
+    display: block;
+}
+.first {
+    background-color: #ffff;
+    box-shadow: 1px 2px 4px black;
+    border-radius: 5px;
+}
+.sec {
+  background-color: #FFFDF0;
+  box-shadow: 1px 2px 4px black;
+  border-radius: 5px
+}
+.third {
+    background-color: #FFF5F6;
+    box-shadow: 1px 2px 4px black;
+  border-radius: 5px;
+}
+.fourth {
+    background-color: #FCF6FD;
+    box-shadow: 1px 2px 4px black;
+    border-radius: 5px;
+}
+
+@media screen  and (max-width:550px){
+    .track-div  {
+      right: -12rem;
+      top: -50px;
+     
+      
+    }
+    .track-div h5 {
+        font-size: 17px;
+       
+        width: 20rem;
+    }
+    .order {
+        font-size: 27px;
+        width: 25rem;
+    }
+    .track-section {
+        left: -130px;
+    }
+    .app-sec-p {
+        width: 25rem;
+    }
+    .track-section input{
+        margin: 1rem 0;
+    }
+    /* What section starts for smaller screens */
+    .appa-main-what h1 {
+        font-size: 30px;
+
+    }
+    .appa-main-what p {
+        font-size: 12px;
+    }
+    .appa-icon-section {
+      flex-direction: column;
+      padding: 1rem ;
+      text-align: center;
+       margin-top: 2rem;
+    }
+    .icon-div {
+        margin: 1rem 0;
+    }
+}
+@media screen and (max-width:450px) {
+    .app-sec-p {
+        width: 22rem;
+        padding: 0 30px;
+    }
+    .order {
+        width: 22rem;
+        padding: 0 10px;
+    }
+    .track-section {
+        left: -170px;
+    }
+   
+    .track-div {
+        right: -10rem;
+        top: -65px;
+        
+    }
+    .track-section button {
+        width: 130px;
+    }
+    
+   
+}
+@media screen and (max-width:290px) {
+  .track-section input {
+    width: 220px;
+  }  
+  .track-div h5 {
+    font-size: 15px;
+    width: 15rem;
+  }
+  .track-div {
+    right: -7rem;
+    top: -55px;
+    
+}
+.order {
+    font-size: 23px;
+    width: 17rem;
+    margin: 5px 10px;
+}
+.track-section {
+    left: -120px;
+}
+.app-sec-p {
+    width: 15rem;
+   margin-left: 30px;
+    
+}
+.appa-main-what h1 {
+    font-size: 22px;
+    text-align: center;
+    padding: 0 10px;
+}
+.appa-icon-section {
+    grid-template-columns: repeat(1,1fr);
+    direction: rtl;
+}
+.appa-main-what p {
+    font-size: 12px;
+    padding: 0 10px;
+}
+}
