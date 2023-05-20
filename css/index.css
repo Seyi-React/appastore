@@ -100,7 +100,7 @@
 }
 .appa-icon-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 4rem;
     padding: 1rem 2rem;
@@ -281,6 +281,106 @@ article p {
     font-size: 13px;
     padding: 2rem 1rem ;
 }
+.appa-question {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 3rem;
+    margin-top: 8rem;
+}
+.appa-question-div main {
+    height: 50px;
+    width: 500px;
+    box-shadow: 1px 1px 4px grey;
+    border: 15px;
+    margin: 2rem 0;
+   
+}
+.appa-got-child h1 {
+    width: 28rem;
+    font-weight: 400;
+    font-size:35px;
+}
+.appa-got-child p {
+    text-align: left;
+    width: 30em;
+    line-height: 30px;
+}
+.appa-got-child div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.quest {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+.quest h6,.quest img {
+    padding: 1rem 2rem;
+    font-size: 13px;
+
+}
+.appa-getin {
+    background-image: url(../img/get.png);
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.appa-D {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+.appa-form {
+    width: 500px;
+    height: 600px;
+    background-color: #ffff;
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px grey;
+}
+.appa-in {
+    text-align: center;
+    color: #EF7822;
+    padding: 2rem 0;
+}
+.appa-form-child {
+    margin: 1rem 0;
+    padding: 10px 1rem;
+}
+.appa-form-child label {
+    display: block;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.appa-form-child input {
+    width: 80%;
+    height: 40px;
+    outline: none;
+}
+.demo {
+    margin-left: 20px;
+    background-color: #EF7822;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.appa-us {
+    color: #ffff;
+}
+.appa-us p {
+    width: 25rem;
+}
 
 @media screen and (max-width:915px) {
     
@@ -317,6 +417,17 @@ article p {
     font-size: 13px;
     width: fit-content;
     padding: 20px 0;
+}
+.appa-question {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.appa-question-div main {
+    width: 450px;
+}
+.quest h1 {
+    font-size: 32px;
 }
 
 
@@ -430,6 +541,37 @@ article p {
     }
     article div {
         justify-content: center;
+        gap: 8px;
+    }
+    .appa-got-child h1 {
+        width: 18rem;
+        font-size:25px;
+        text-align: center;
+    }
+    .appa-got-child p {
+        text-align: center;
+        width: 19rem;
+        line-height: 25px;
+        font-size: 13px;
+    }
+    .appa-got-child div {
+        justify-content: center;
+        align-items: center;
+    }
+    .appa-question-div main {
+        margin: 2rem 2rem;
+        width: 280px;
+        height: 60px;
+    }
+    .appa-question {
+        padding: 0;
+    }
+    article p {
+        padding: 0;
+        font-size: 11px;
+    }
+    .quest h6 {
+        font-size: 11px;
     }
    
 }
