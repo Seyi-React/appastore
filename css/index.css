@@ -128,22 +128,22 @@
 }
 .first {
     background-color: #ffff;
-    box-shadow: 1px 1px 0px black;
+    box-shadow: 1px 1px 4px grey;
     border-radius: 5px;
 }
 .sec {
   background-color: #FFFDF0;
-  box-shadow: 1px 1px 0px black;
+  box-shadow: 1px 1px 4px grey;
   border-radius: 5px
 }
 .third {
     background-color: #FFF5F6;
-    box-shadow: 1px 1px 0px black;
+    box-shadow: 1px 1px 4px grey;
   border-radius: 5px;
 }
 .fourth {
     background-color: #FCF6FD;
-    box-shadow: 1px 1px 0px black;
+    box-shadow: 1px 1px 4px grey;
     border-radius: 5px;
 }
 .appa-logistics {
@@ -221,6 +221,66 @@
 .apple {
     width: 110px;
 }
+.appa-join {
+    margin-top: 4rem;
+    text-align: center;
+}
+.appa-testimonial {
+    margin-top: 4rem;
+    text-align: center;
+    background-color:  #FFFAF5;
+}
+.appa-child-join {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 4rem;
+    text-align: left;
+}
+.appa-child-join p {
+    font-size: 13px;
+    width: 28rem;
+    line-height: 30px;
+}
+.appa-child-join h4 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+.appa-child-join button {
+    height: 35px;
+    width: 120px;
+    background-color: #EF7822;
+    color: #ffff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.appa-test {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.appa-test article {
+    width: 380px;
+    height: 280px;
+    background-color: #ffff;
+    border-radius: 8px;
+    padding: 2rem;
+}
+article div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.appa-main-test {
+    padding: 1rem 0;
+}
+article p {
+    font-size: 13px;
+    padding: 2rem 1rem ;
+}
 
 @media screen and (max-width:915px) {
     
@@ -238,6 +298,27 @@
     font-size: 11px;
     line-height: 35px;
 }
+.appa-child-join {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.appa-test {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+}
+.appa-test article {
+    box-shadow: 1px 1px 4px grey;
+}
+article p {
+    font-size: 13px;
+    width: fit-content;
+    padding: 20px 0;
+}
+
 
 }
 
@@ -297,6 +378,17 @@
 .group {
     height: 270px;
 }
+.appa-child-join p {
+    width: 20rem;
+}
+.appa-main-test {
+    padding: 30px 0;
+}
+article p {
+    font-size: 13px;
+    width: fit-content;
+    padding: 0 ;
+}
 }
 @media screen and (max-width:450px) {
     .app-sec-p {
@@ -328,6 +420,16 @@
    
     .man {
         margin-left: 0px;
+    }
+    .appa-test article {
+       margin: 0 4rem;
+       box-shadow: 1px 1px 4px grey;
+       width: 270px;
+       text-align: center;
+
+    }
+    article div {
+        justify-content: center;
     }
    
 }
@@ -368,6 +470,55 @@
 }
 .appa-main-what p {
     font-size: 12px;
-    padding: 0 10px;
+   
+}
+.appa-dependable h2 {
+    font-size: 18px;
+    
+}
+.appa-dependable p {
+    font-size: 12px;
+    padding: 0 0.5rem;
+    line-height: normal;
+}
+.log-img {
+    height: 200px;
+    width: 200px;
+}
+.appa-integrated h2 {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 0.8rem;
+}
+.appa-integrated p {
+    padding: 0 0.8rem;
+}
+.appa-dependable {
+    text-align: center;
+}
+.appa-logistics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.log-img {
+    text-align: center;
+    margin-left: 30px;
+}
+.apple {
+    width: 80px;
+}
+.group {
+    height: 200px;
+}
+.mark {
+    height: 28px;
+}
+.appa-child-join p {
+    width: 15rem;
+}
+.appa-test article {
+    margin: 0 5rem;
 }
 }
