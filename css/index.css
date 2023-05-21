@@ -328,7 +328,7 @@ article p {
     background-image: url(../img/get.png);
     width: 100%;
     height: 100%;
-    object-fit:fill;
+    object-fit:cover;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -429,6 +429,15 @@ article p {
 .quest h1 {
     font-size: 32px;
 }
+.appa-D {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 10px 0;
+}
+.appa-us p {
+    width:16rem;
+}
 
 
 }
@@ -499,6 +508,14 @@ article p {
     font-size: 13px;
     width: fit-content;
     padding: 0 ;
+}
+.appa-form{
+    width: fit-content;
+}
+.appa-us p {
+    font-size: 11px;
+    padding: 0;
+    width: 13rem;
 }
 }
 @media screen and (max-width:450px) {
