@@ -8,6 +8,22 @@
     font-size: 14px;
     margin: 0 8px;
 }
+.sign {
+    border: 1px solid #EF7822;
+    width: 100px;
+    border-radius: 5px;
+    background: none;
+    color: #fff;
+    height: 30px;
+}
+.join {
+    background-color: #EF7822;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    color: #ffff;
+    height: 30px;
+}
 .nav-link:hover {
     color: #EF7822;
 }
@@ -381,6 +397,42 @@ article p {
 .appa-us p {
     width: 25rem;
 }
+.appa-footer {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), #E27425;
+}
+.appa-foot-flexer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 1rem 1rem 0;
+    font-size: 12px;
+   
+    color: #fff;
+}
+.block {
+    display: block;
+}
+.play-store,.apple-store {
+    width: 140px;
+    height: 45px;
+    margin: 5px 0;
+}
+.appa-last-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 2rem 8rem 1rem;
+    font-size: 12px;
+    
+}
+.appa-last-footer p {
+    opacity: 0.7;
+    letter-spacing: 1px;
+}
+.footer-img img {
+    width: 150px;
+}
 
 @media screen and (max-width:915px) {
     
@@ -438,6 +490,20 @@ article p {
 .appa-us p {
     width:16rem;
 }
+.appa-foot-flexer {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.appa-foot-flexer div {
+    margin: 10px 0;
+}
+.appa-last-footer {
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 1rem;
+}
+
 
 
 }
